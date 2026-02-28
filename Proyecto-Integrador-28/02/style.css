@@ -1,4 +1,4 @@
-/* Centrado y fondo de la pantalla */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f2f5;
@@ -8,7 +8,7 @@ body {
     margin: 0;
 }
 
-/* Tarjeta principal */
+
 .contenedor {
     background-color: white;
     padding: 30px;
@@ -24,7 +24,7 @@ h1 {
     color: #333;
 }
 
-/* Flexbox para poner input y botón "Agregar" en la misma línea */
+
 form {
     display: flex;
     gap: 10px;
@@ -40,7 +40,7 @@ input {
     outline: none;
 }
 
-/* Botón de Agregar (Verde) */
+
 button#agregar {
     background-color: #28a745;
     color: white;
@@ -61,9 +61,9 @@ p {
     color: #333;
 }
 
-/* Estilos de la lista */
+
 ul {
-    list-style: none; /* Quita los puntos viñeta */
+    list-style: none; 
     padding: 0;
 }
 
@@ -75,10 +75,10 @@ li {
     border-radius: 4px;
     display: flex;
     justify-content: space-between;
-    align-items: center; /* Centra el texto y el botón horizontalmente */
+    align-items: center; 
 }
 
-/* Botón de Eliminar (Rojo) */
+
 .btn-eliminar {
     background-color: #dc3545;
     color: white;
